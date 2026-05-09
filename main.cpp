@@ -34,11 +34,12 @@ int callback(void *data, int argc, char **argv, char **azColName) {
     //Print out ID, album name, artist
         cout << "\nAlbumId: " << albumId
              << "\nAlbum: " << albumTitle
-             << "\nArtist: " << artistName << endl;
+             << "\nArtist: " << artistName 
+             << "\nTracks: " <<endl;
     }
 
     // Print track
-    cout << "\nTracks: " << trackName << endl;
+    cout << " -" << trackName << endl;
 
     return 0;
 }
