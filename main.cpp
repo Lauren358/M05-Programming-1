@@ -6,7 +6,7 @@ using namespace std;
 /* Program name: Database Connection and Callbacks
 *  Author: Lauren Davis
 *  Date last updated: 5/8/2026
-* Purpose: This program opens a connection to the Chinook database. For each album a track listing will be shown and each album will appear in the results once. If the connection doesn't open successfully an error message will print and end the program, if it opens successfully, a success message will print when it.
+* Purpose: This program opens a connection to the Chinook database. For each album, the albumId, title of the album, artist name, and a track listing will be shown. Each album will appear in the results once. If the connection doesn't open successfully an error message will print and end the program, if it opens successfully, a success message will print.
 */
 
 //note AI was used to aid in ensuring the connection to database code was correct. The code was throughly looked over by human eye.
