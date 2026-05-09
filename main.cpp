@@ -60,7 +60,7 @@ int main() {
 
     const char *sql =
          "SELECT al.AlbumId, al.Title, t.Name, art.Name "
-        "FROM albums al"
+        "FROM albums al "
         "JOIN tracks t ON t.AlbumId = al.AlbumId "
         "JOIN artists art ON al.ArtistId = art.ArtistId "
         "ORDER BY al.AlbumId;";
